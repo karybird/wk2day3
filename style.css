@@ -1,0 +1,65 @@
+
+Html, body, h1, h2, h3, p, a {
+		Padding: 0;
+		Border: 0;
+		Margin: 0;
+	}
+
+.header {
+	font-family: "Times New Roman";
+	font-style: italic;
+	background-color: #404040;
+	text-align: center;
+	position: sticky;
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+}
+
+div a {
+	text-decoration: none;
+	color: #ccffff;
+}
+
+a:hover {
+	text-decoration: underline;
+	color: #ffffff;
+}
+
+h1 {
+	font: 40pt Lobster, Impact;
+	font-style: bold;
+	font-style: italic;
+	color: #ffffff;
+	margin: auto;
+}
+
+h2 {
+	font: 30pt Lobster, Impact;
+	font-style: bold;
+	font-style: italic;
+	color: #ffffff;
+	margin: auto;
+}
+
+body {
+	font: 14pt Arial;
+	color: #ccffff;
+ 	background-color: #c7c7c7;
+	background-image: url(waterdrops.jpg);
+	background-repeat: repeat;
+	text-align: center;
+}
+
+ol, ul {
+  text-align: left;
+}
+
+.body {
+	padding-top: 40px;
+}
+
+.notalink {
+	text-decoration: none;
+	color: #ccffff;
+}
